@@ -1,0 +1,46 @@
+.taulu {
+    background:rgba(255, 250, 215, 0.5);
+    border: black;
+    border-style: groove;
+    border-width: 5px;
+    margin: 5px auto 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.selite {
+    border: black;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tiedot {
+    border: black;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    margin: 20px auto 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    color: black;
+}
+
+body {
+    background-image: url("http://www.pptback.com/uploads/green-world-map-backgrounds-powerpoint.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Georgia", serif;
+    color: black;
+}
+
+

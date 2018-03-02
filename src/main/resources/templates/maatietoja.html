@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../static/css/tyyli.css" th:href="@{/css/tyyli.css}"/>
+    <title th:text="thymeleaf">Maatietoja</title>
+</head>
+<body>
+<h1>Countries of the world</h1>
+
+<table class="taulu">
+    <tr>
+        <th class="selite">Name</th>
+        <th class="selite">Local name</th>
+        <th class="selite">Capital</th>
+        <th class="selite">Population</th>
+    </tr>
+
+    <tr th:each="nimi : ${maatiedot}">
+        <td class="tiedot" th:text="${nimi.name}"/>
+        <td class="tiedot" th:text="${nimi.localName}"/>
+        <td class="tiedot" th:text="${nimi.capital}"/>
+        <td class="tiedot" th:text="${nimi.population}"/>
+    </tr>
+</table>
+
+
+</body>
+</html>

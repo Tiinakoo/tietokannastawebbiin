@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="thymeleaf">Etusivu</title>
+</head>
+<body>
+
+<ul th:each="nimi : ${maat}">
+    <li th:text="${nimi}"/>
+</ul>
+
+</body>
+</html>
